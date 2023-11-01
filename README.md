@@ -1,75 +1,26 @@
-# Nuxt 3 Minimal Starter
+# Frontend App Photo Stock
+Для более подробной информации смотреть [документацию Nuxt 3](https://nuxt.com/docs/getting-started/introduction).
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
+## Настройка проекта
+1. Установите [pnpm](https://pnpm.io/installation)
+2. Установите зависимости проекта:
 ```bash
-# npm
-npm install
+pnpm i
+```
+3. Создайте дубликат .env.development и переименуйте его в .env
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+## Запуск проекта
+### Запуск dev сервера:
+```bash
+pnpm dev
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### Собрать production build:
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+pnpm build
 ```
 
-## Production
-
-Build the application for production:
-
+### Посмотреть локально production build:
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm preview
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
