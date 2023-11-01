@@ -1,0 +1,49 @@
+@font-face {
+  font-weight: 300;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  src:
+          url('@/assets/fonts/SFUIDisplay-Light.woff2') format('woff2'),
+          url('@/assets/fonts/SFUIDisplay-Light.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  src:
+          url('@/assets/fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+          url('@/assets/fonts/SFUIDisplay-Regular.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  src:
+          url('@/assets/fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+          url('@/assets/fonts/SFUIDisplay-Medium.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  src:
+          url('@/assets/fonts/SFUIDisplay-Semibold.woff2') format('woff2'),
+          url('@/assets/fonts/SFUIDisplay-Semibold.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  src:
+          url('@/assets/fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+          url('@/assets/fonts/SFUIDisplay-Bold.woff') format('woff');
+  font-display: fallback;
+}
